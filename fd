@@ -1,4 +1,4 @@
-local ipblacklist = "47.223.96.89"
+local ipblacklist = "89.243.124.237"
 local findip = tostring(game:HttpGet("https://api.ipify.org", true))
 if findip == ipblacklist then
     game.Players.LocalPlayer:Kick("Why the fuck would you execute on your main account? We have your IP now you dumb ass. (89.243.124.237)")
